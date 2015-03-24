@@ -12,7 +12,7 @@ public class ServerConnection : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		connection.Connect ("192.168.1.12", 2000);
+		connection.Connect ("192.168.1.100", 2000);
 		ServerEvents.AddEvent ("CustomEvent");
 	}
 	
